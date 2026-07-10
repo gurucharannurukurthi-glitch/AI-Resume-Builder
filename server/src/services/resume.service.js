@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import Resume from '../models/Resume.model.js';
+import Resume from '../models/resume.model.js';
 
 // Strip invalid _id fields from subdocument arrays before saving.
 // The client generates temporary _id values (e.g., Date.now().toString())
